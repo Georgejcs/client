@@ -3,6 +3,9 @@
 ![Halter](./assets/Halter.JPG)
 Um aplicativo de musculação que oferecerá rotinas de exercícios, planos de treinamento e rastreamento de progresso para ajudar os usuários.
 
+## Importante ##
+o O service está no "Gym-app-0.2"
+
 ## Índice
 - <a href="#funcionalidades">Funcionalidades do Projeto</a>
   - <a href="#layout">Layout</a>
