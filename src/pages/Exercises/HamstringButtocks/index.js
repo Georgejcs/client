@@ -9,15 +9,15 @@ import { Axios } from 'axios';
 export default function HamstringButtocks(){
   const [list, setList] = useState();
 
-    //Delete
+        //Delete
     const deleteItem = (key) => {
-      Axios.delete(`http://10.0.0.60:3001/item/${key}`,
+      Axios.delete(`http://255.255.255.0:3001/item/${key}`,
       )
     }
 
     //Read
     useEffect(() => {
-      Axios.get("http://10.0.0.60:3001/item").then(
+      Axios.get("http://255.255.255.0:3001/item").then(
         (response) => {
           setList(response.data)
         }
@@ -27,7 +27,7 @@ export default function HamstringButtocks(){
     
     //CREATE
     const submitInformation = (texto) => {
-      Axios.post( "http://10.0.0.60:3001/item", {item: texto} )
+      Axios.post( "http://255.255.255.0:3001/item", {item: texto} )
     }
 
   return (
